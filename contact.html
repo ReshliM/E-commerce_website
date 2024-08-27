@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revalion</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="nav-bar">
+<div class="nav-bar-container">
+    <div class="nav-title">
+        <h1>Revalion</h1>
+    </div>
+
+<div class="nav-bar-link">
+    <h5 ><a href="index.html">Home</a></h5>
+    <h5><a href="shop.htm">Shop</a></h5>
+    <h5><a href="blog.html">Blog</a></h5>
+    <h5><a href="about.html">About</a></h5>
+     <h5><a href="contact.html">Contact</a></h5>
+  <a href="cart.htm"  class="contact-navbar">  <i class="fa-solid fa-cart-shopping" style="color:  rgb(98, 96, 153);" ></i></a>
+</div>
+<div class="toggle-nav-bar" onclick="showSidenav()">
+    <i class="fa-solid fa-bars"></i>
+</div></div>
+
+
+
+<div class="side-nav-bar">
+    <div class="wrong-icon" onclick="closeSidenav()">
+        <i class="fa-solid fa-x"></i>
+    </div>
+    <div>
+        <div class="side-nav-bar-link">
+            <h5 class="side-nav-bar-link1"><a href="index.html">Home</a></h5>
+            <h5 class="side-nav-bar-link1"><a href="shop.htm">Shop</a></h5>
+            <h5 class="side-nav-bar-link1"><a href="blog.html">Blog</a></h5>
+            <h5 class="side-nav-bar-link1"><a href="about.html">About</a></h5>
+            <h5 class="side-nav-bar-link1"><a href="contact.html">Contact</a></h5>
+
+            <h5 class="side-nav-bar-link1"><a href="cart.htm">Shopping Cart</a></h5>
+        </div>
+    </div>
+
+</div>
+</nav>
+<!--banner- contact-->
+<section>
+    <Div>
+        <div class="blog-banner">
+            <img src="asset/about/banner.png">
+            <div class="blog-banner-text">
+                <h1>#Let's_talk</h1>
+                <p>LEAVE A MESSAGE. We are love to hear you!. </p>
+
+            </div>
+        </div>
+    </Div>
+</section>
+<!--contact flex-->
+  <section>
+    <div class="contact-flex">
+        <div class="contact-1">
+            <h4>GET IN TOUCH</h4>
+            <H1>Visit one of our agency locations or contact us today</H1>
+            <h3><strong>Head Office</strong></h3>
+            <ul>
+                <li><i class="fa-brands fa-phoenix-framework"></i><span>56 Glassford Street Glassgow</span></li>
+                <li><i class="fa-regular fa-message"></i><span>contact@gmail.com</span></li>
+                <li><i class="fa-solid fa-phone"></i><span>+987654321</span></li>
+                <li><i class="fa-regular fa-clock"></i><span>Sunday to monday 9am to 8pm</span></li>
+            </ul>
+        </div>
+        
+            <div class="contact-2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248755.79475951716!2d80.04419698151072!3d13.047807814214304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1724751484594!5m2!1sen!2sin" width="500" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+   <!--contact form-->
+
+   <div class="contact-form">
+    <h4>LEAVE YOUR MESSAGE</h4>
+    <h2>We love to hear from you</h2>
+    <form id="contactForm">
+       
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        
+        
+        <input type="email" id="email" name="email" placeholder="E-mail" required>
+        <input type="email" id="email" name="email" placeholder="Subject" required>
+       
+        <textarea id="message" name="message" placeholder="Message" required></textarea>
+        <div class="contact-button">
+        <button type="submit">Send Message</button></div>
+    </form>
+    <p id="formStatus"></p>
+</div>
+</div>
+
+
+    </div>
+  </section>
+
+
+
+
+
+
+<!--news letter-->
+<section>
+    <div class="newsletter-container-head">
+    <div class="newsletter-container">
+        <div class="newsletter-h1-p">
+<h1>Sign Up for Newsletters</h1>
+<p>
+    Get E-mail updates about our latest shop and <span>special offers.</span>
+</p>
+        </div>
+        <div class="newsletter-input">
+<input type="text" placeholder="Enter your email"><button>Sign up</button>
+        </div>
+
+    </div></div>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-1">
+        <div class="nav-title">
+            <h1>Revalion</h1>
+        </div>
+    <h3>Contact</h3>
+    <h4>Address:<span>562 Wellington Road,Street 32 ,San Fransico.</span></h4>
+    <h4>Phone:<span>1234567890</span></h4>
+    <h4>Hours:<span>8.00 am - 9.00 pm</span></h4>
+    <h3>Follow Us</h3>
+   <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+   <a href="#">  <i class="fa-brands fa-twitter"></i></a>
+    <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+
+    <div class="footer-2">
+        <h3>
+            About
+        </h3>
+        <ul>
+            <li>About Us</li>
+            <li>Delivery Info</li>
+            <li>Privacy policy </li>
+            <li>Terms & Condition</li>
+            <li>Contact Us</li>
+        </ul>
+
+    </div>
+    <div class="footer-3">
+        <h3>
+            Account
+        </h3>
+        <ul>
+            <li>Sign in </li>
+            <li>View cart</li>
+            <li>My Wishlist </li>
+            <li>Track my order</li>
+            <li>Help</li>
+        </ul>
+
+    </div>
+
+    <div class="footer-4">
+        <h3>Install App</h3>
+        <p>From app store google play</p>
+        <img src="asset/pay/app.jpg">
+<p>Secured payment gateway</p>
+<img src="asset/pay/google.jpg">
+    </div>
+    </div>
+</footer>
+
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Simulate a form submission (In real scenarios, you would send this data to a server)
+    const formStatus = document.getElementById('formStatus');
+    formStatus.textContent = `Thank you, ${name}! Your message has been sent.`;
+
+    // Clear the form
+    this.reset();
+});
+
+</script>
+</body>
+</html>
